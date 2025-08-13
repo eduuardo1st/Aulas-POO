@@ -1,3 +1,5 @@
+package poo.aulas.eduardojava.aula1;
+
 import java.util.Scanner;
 
 public class EntradaDeDados {

@@ -13,7 +13,7 @@ public class Principal {
         pessoa.apresentarPessoa();
         pessoa2.apresentarPessoa();
 
-        Carro gol = new Carro("Gol", 2013, "vermelho");
-        gol.proprietario(pessoa);
+        Carro gol = new Carro("Gol", 2013, "vermelho", pessoa);
+        gol.proprietario();
     }
 }

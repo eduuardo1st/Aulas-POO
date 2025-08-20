@@ -15,10 +15,10 @@ public class Pessoa {
     // metodo construtor
 
     public void apresentarPessoa(){
-        System.out.println("Olá meu nome é " + nome);
+        System.out.println("Olá meu nome é " + this.nome);
     }
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 }

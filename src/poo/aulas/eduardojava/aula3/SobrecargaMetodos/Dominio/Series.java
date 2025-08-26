@@ -6,16 +6,13 @@ public class Series {
     private int episodios;
     private String genero;
 
-    public void init (String nome, String tipo, int episodios){
+    public void init (String nome, String tipo, int episodios,  String genero){
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
-    }
-
-    public void init (String nome, String tipo, int episodios,  String genero){
-        init(nome, tipo, episodios);
         this.genero = genero;
     }
+
     public void imprimir(){
         System.out.println("Nome do serie: " + nome);
         System.out.println("Tipo: " + this.tipo);

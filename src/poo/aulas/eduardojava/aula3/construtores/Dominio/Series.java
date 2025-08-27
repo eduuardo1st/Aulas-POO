@@ -5,17 +5,25 @@ public class Series {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
     public Series (String nome,  String tipo, int episodios,  String genero) {
         System.out.println("Dentro do construtor");
+        this();
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
         this.genero = genero;
     }
 
-    public Series() {
+    public Series (String nome,  String tipo, int episodios,  String genero, String estudio) {
+        System.out.println("Dentro do construtor");
+        this(nome, tipo, episodios, genero);
+        this.estudio = estudio;
+    }
 
+    public Series() {
+        System.out.println("Dentro do construtor sem argumentos");
     }
 
     public void init (String nome, String tipo, int episodios){
@@ -33,6 +41,7 @@ public class Series {
         System.out.println("Tipo: " + this.tipo);
         System.out.println("Episodios: " + this.episodios);
         System.out.println("Genero: " + this.genero);
+        System.out.println("Estudio: " + this.estudio);
     }
 
     public void setTipo(String tipo){

@@ -1,4 +1,4 @@
-package poo.aulas.eduardojava.aula3.SobrecargaMetodos.Dominio;
+package poo.aulas.eduardojava.aula3.sobrecargametodos.Dominio;
 
 public class Series {
     private String nome;

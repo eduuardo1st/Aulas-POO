@@ -6,6 +6,8 @@ public class JogadorMain {
     public static void main(String[] args) {
         Jogador jogador1 = new Jogador("Pelé");
         Jogador jogador2 = new Jogador("Marta");
+
+
         Jogador jogador3 = new Jogador("Maria");
 
         Jogador[] jogadores = new Jogador[]{jogador1, jogador2, jogador3};

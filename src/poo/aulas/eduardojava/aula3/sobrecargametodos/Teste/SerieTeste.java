@@ -1,6 +1,6 @@
-package poo.aulas.eduardojava.aula3.SobrecargaMetodos.Teste;
+package poo.aulas.eduardojava.aula3.sobrecargametodos.Teste;
 
-import poo.aulas.eduardojava.aula3.SobrecargaMetodos.Dominio.Series;
+import poo.aulas.eduardojava.aula3.sobrecargametodos.Dominio.Series;
 
 public class SerieTeste {
     public static void main(String[] args) {

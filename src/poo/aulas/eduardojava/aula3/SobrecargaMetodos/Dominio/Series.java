@@ -13,6 +13,8 @@ public class Series {
         this.genero = genero;
     }
 
+
+
     public void imprimir(){
         System.out.println("Nome do serie: " + nome);
         System.out.println("Tipo: " + this.tipo);
